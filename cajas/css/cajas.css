@@ -1,0 +1,144 @@
+.root{
+    font-family: 'Muli', cursive;
+    font-size: 1rem;
+    color: #43525A; 
+    margin: 0;   
+    overflow-x: hidden;
+
+}
+
+.header{
+    background-color: #f2f2f2; 
+}
+
+.header-container{
+    font-family: 'Muli', cursive;
+    font-size: 1rem;
+    color: #43525A; 
+    width: 100%;    
+    max-width: 1320px;     
+    margin: 0 auto;   
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    
+    max-width: 1320px; 
+    font-size: 1.14286rem;      
+    padding: 2.14286rem 0.71429rem;
+    box-sizing: border-box;
+    color: #43525A;
+    font-size: 1.14286rem;    
+}
+
+.nav-link{
+    padding: 0.35714rem;
+    margin: 0.35714rem;
+    color: #43525A;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translateY(0);
+}
+.nav-link:hover{
+    transform: translateY(-0.35714rem);  
+    color: #28A5BE;  
+}
+
+.nav-separator{
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: block;
+    width: 1px;
+    background-color: #43525A;
+    margin: 0 0.71429rem;
+    height: 1.71429rem;    
+}
+
+.nav-left{
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;    
+}
+
+.nav-right{
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: flex-end;
+    align-items: center;  
+}
+
+.main{
+    background-color: #F6F6F6;
+    font-family: 'Muli', cursive;
+    font-size: 1rem;
+    color: #43525A;
+}
+
+.dual{
+    display: flex;
+    width: 100%;    
+}
+
+.dual-left{
+    display: flex;
+    background-image: linear-gradient(90deg, #37302C 0%, #0D0D12 100%);
+    color: #fff;
+    padding: 5.71429rem 0 27.85714rem;
+    position: relative;
+    width: 50%;
+}
+
+.dual-left div{
+    margin-left: auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 660px;  
+    padding-right: 5rem; 
+}
+
+.dual-left img{
+    right: 0;
+    position: absolute;
+    bottom: 0;    
+}
+
+.dual-right{
+    display: flex;
+    background: #DDE3E7;
+    color: #fff;
+    padding: 5.71429rem 0 27.85714rem;
+    position: relative;
+    width: 50%;
+    text-align: right;
+    color: #43525A;
+}
+
+.dual-right div{
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 660px;   
+    padding-left: 5rem; 
+}
+
+.dual-right img{
+    left: 0;
+    position: absolute;
+    bottom: 0;    
+}
+
+.button{
+    background-color: #1b6e7f;
+    display: inline-block;
+    margin: 1.42857rem 0 0;
+    padding: 1.07143rem 2.14286rem;
+    font-size: 1.14286rem;
+    color: #fff;
+    background-color: #28A5BE;
+    transition: all 0.3s ease-in-out;
+    font-family: "Muli", sans-serif;
+    font-weight: 600;
+    text-decoration: none;    
+}

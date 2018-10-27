@@ -1,0 +1,81 @@
+/*Selectores generales de etiqueta*/
+h1{
+    color: tomato;
+}
+h2{
+    color: yellow;
+}
+/*Selectores de Clase*/
+.encabezado{
+    width: 90%;
+    height: 40px;
+    background-color: chartreuse;
+    border : black solid 1px;
+    border-radius: 5px;
+    margin: auto;
+}
+.encabezadocontenido{
+    margin: 10px;
+    background-color: coral;
+}
+.texto{
+    font-family: 'Charmonman', cursive;
+    border: darkblue solid 1px;
+    border-radius: 3px;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+.texto:hover{
+    border: #334455 solid 1px;
+    border-radius: 3px;
+    background-color: rgb(167, 76, 54);
+    padding: 10px;
+}
+a{
+    font-size: 2em;
+    color: darkgoldenrod;  
+    text-decoration: none;  
+}
+a:hover{
+    color: brown;
+    cursor: help;
+}
+
+/*Selectores de atributos*/
+/*Selector de atributo*/
+[data-vegetable]{
+    color: green;
+}
+/*Selector con valor*/
+[data-vegetable="liquid"]{
+    background-color: goldenrod;
+}
+/*Selector con búsqueda en valor (like) */
+[data-vegetable~="spicy"]{
+    color: red;
+}
+
+[href*="google"]{
+    color: red;
+}
+/*Selector compuesto*/
+.padre div{
+    border: solid black 1px;
+    width: 32%;
+    height: 15px;
+    display: inline-table;
+}
+.padre div:first-child{
+    background-color: blueviolet;
+}
+.padre div + div{
+    background-color: red;
+}
+.padre div:last-child{
+    background-color: darkolivegreen;
+}
+#perfil img{
+    height: 35px;
+    border: solid black 1px;
+    border-radius: 50%;
+}

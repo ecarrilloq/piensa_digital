@@ -1,0 +1,89 @@
+.encabezado{
+    width: 90%;
+    min-width: 600px;
+    height: 90px;
+    background-color: rgb(104, 104, 104);
+    border: solid 1px black;
+    border-radius: 3px;
+    margin: auto;
+}
+.encabezado div{
+    display: inline-table;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.encabezado a{
+    color: white;
+}
+.encabezado div h1{
+    margin: auto 5px auto 5px;
+}
+.encabezado div img{
+    height: 80px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.contenido{
+    width: 90%;
+    min-width: 600px;
+    border: solid 1px black;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.contenido h2{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.contenido i{
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.contenido hr{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.contenido h3{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;     
+}
+
+.contenido h4{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 10px;     
+}
+
+.contenido ul{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 10px; 
+    text-align: justify     
+}
+
+#resumen{
+    text-align: justify;    
+}
+#resumen p{
+    margin: 10px;
+}
+td:first-child{
+    text-align: right;
+    padding-right: 20px;
+}
