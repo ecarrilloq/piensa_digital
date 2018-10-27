@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <script src="js/funciones.js"></script>
+</head>
+<body>
+    <input id="valor1" type="text">
+    <input id="valor2" type="text">
+    <button onclick="calcular(document.getElementById('valor1').value,document.getElementById('valor2').value,'+')">+</button>
+    <button onclick="calcular(document.getElementById('valor1').value,document.getElementById('valor2').value,'-')">-</button>
+    <button onclick="calcular(document.getElementById('valor1').value,document.getElementById('valor2').value,'*')">*</button>
+    <button onclick="calcular(document.getElementById('valor1').value,document.getElementById('valor2').value,'/')">/</button>
+    <input id="resultado" type="text">
+    
+</body>
+</html>

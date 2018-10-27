@@ -23,7 +23,7 @@ console.log(!cumple);
 for(i=0;i<semana.length;i++){
     console.log(semana[i]);
 }
-*/
+
 for (dia in semana){
     if(dia%2==0){
         console.log(dia);
@@ -35,8 +35,27 @@ for (dia in semana){
 
 }
 
-/*
 semana.forEach(element => {
     console.log(element);
 });
 */
+
+function suma( n1,  n2){
+    var resultado= n1 +n2;
+    console.log("La suma es :"+resultado);
+}
+
+suma(5,7);
+var cadena = "En un lugar de la mancha de cuyo nombre no quiero acordarme..."
+var letras = cadena.split("");
+
+var resultado = "";
+
+for(i in letras){
+    if(letras[i]=='a'){
+        break;
+    }else{
+        resultado+=letras[i];
+    }
+}
+console.log(resultado);
